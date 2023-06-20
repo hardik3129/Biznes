@@ -1,0 +1,168 @@
+@media (max-width: 1199px) {
+
+    /* 
+        --- CONTAINER ---
+    */
+    .container {
+        max-width: 970px;
+        padding: 0 15px;
+    }
+
+    header {
+        position: sticky;
+    }
+    
+    /* 
+        --- UPPER HEADER ---
+    */
+    .top-left {
+        grid-template-columns: 23% 19% auto 23%;
+    }
+
+    /* 
+        --- lower headert ---
+    */
+    .lower-header nav {
+        margin-right: 20px;
+    }
+    
+    .lower-header nav a {
+        margin-left: 30px;
+    }
+
+    .lower-header .search-btn::before {
+        display: none;
+    }
+
+
+    /* 
+        --- banner- section ---
+    */
+    .banner-img {
+        padding: 100px 0px 130px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    /* 
+        --- UPPER HEADER ---
+    */
+    .top-left {
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+    .top-left .items3 {
+        grid-column: 1 / 3;
+        justify-self: center;
+    }
+    .top-left .btn-section {
+        grid-column: 1 / 3;
+        padding: 0 45px;
+        margin: 8px 0 10px;
+    }
+    .top-left .btn-section a {
+        margin: 0;
+    }
+
+
+    /* 
+        --- lower- header ---
+    */
+    .lower-header {
+        display: block;
+    }
+    .lower-header .biznes-logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .lower-header .d-flex  {
+        width: 100%;
+    }
+    .lower-header nav {
+        display: inline;
+        margin: 0 25px 0 0;
+    }
+    .lower-header nav a {
+        padding: 20px 6px;
+    }
+    .lower-header .just-self-end {
+        display: inline;
+    }
+
+
+    /* 
+        --- banner section ---
+    */
+    .banner-content {
+        margin-left: 32px;
+    }
+    .banner-head {
+        font-size: 49px;
+        line-height: 68px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    /* 
+        --- lower header ---
+    */
+    .lower-header .navbar-toggle {
+        display: block;
+    }
+    .lower-header nav {
+        display: none !important;
+    }
+
+    /* 
+        --- banner section ---
+    */
+    .banner-content {
+        margin: 0;
+    }
+
+
+    /* 
+        --- banner section ---
+    */
+    .banner-btns {
+        flex-direction: column;
+    }
+    .banner-btns .second-btn {
+        margin: 10px 0 0 0;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 100%;
+    }
+
+     /* 
+        --- UPPER HEADER ---
+    */
+    .top-left {
+        display: inline-block;
+        width: 100%;
+    }
+    .top-left li:nth-child(1), .top-left li:nth-child(2), .top-left li:nth-child(3) {
+        line-height: 27px;
+    }
+    .top-left .btn-section a {
+        padding: 12px 22px;
+        line-height: 25px;
+    }
+
+
+    /* 
+        --- banner section ---
+    */
+    .banner-img {
+        padding: 20px;
+    }
+}
