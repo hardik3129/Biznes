@@ -1,3 +1,10 @@
+@media (max-width: 1399px) {
+    .contact-bg-img::before {
+        z-index: -1;
+    }
+}
+
+
 @media (max-width: 1199px) {
 
     /* 
@@ -140,6 +147,30 @@
     .service-section .section-title {
         width: 100%;
     }
+    /* service side content */
+    .service-section .service-side-content {
+        width: 100%;
+    }
+
+
+    /* 
+        --- CONTACT FORM SECTION ---
+    */
+    .contact-form-detaile {
+        width: 100%;
+    }
+
+
+    /* 
+        --- FOOTER ---
+    */
+    footer .d-flex {
+        flex-wrap: wrap;
+    }
+    .about-us,.footer-nav,.subscribe {
+        width: 50%;
+        margin: 20px 0px;
+    }
 }
 
 
@@ -171,6 +202,14 @@
     .banner-btns .second-btn {
         margin: 10px 0 0 0;
     }
+
+
+    /* 
+        --- EXPERT TEAM SECTION ---
+    */
+    .expert-img, .expert-content  {
+        width: 100%;
+    }
 }
 
 
@@ -180,6 +219,36 @@
     */
     .feauture-part {
         grid-template-columns: 100%;
+    }
+
+
+    /* 
+        --- EXPERT TEAM SECTION ---
+    */
+    .expert-part {
+        flex-wrap: wrap;
+    }
+    .expert-content  {
+        margin-top: 50px;
+    }
+
+
+    /* 
+        --- CONTACT FORM ---
+    */
+    .contact-form {
+        grid-template-columns: auto;
+    }
+
+
+    /* 
+        --- FOOTER PART ---
+    */
+    .about-us,.footer-nav,.subscribe {
+        width: 100%;
+    }
+    .footer-nav {
+        padding: 0 15px;
     }
 }
 
